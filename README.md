@@ -32,7 +32,7 @@ Its dead simple (<100LOC) and you can pick and choose where you want to use it.
 To get started, lets install the package thru npm:
 
 ```
-npm i ngrx-actions --S
+npm i ngrx-typed-actions -S
 ```
 
 ### Reducers
