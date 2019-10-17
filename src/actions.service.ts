@@ -11,7 +11,11 @@ interface H {
 export class ActionsService {
   constructor(private actionsSubject: ActionsSubject) {}
 
-  dispatch<T extends Action, K extends keyof T>(context: any, action: Type<T>, payload: Exclude<T[K], H>) {
+  dispatch<T extends Action, K extends keyof T>(
+    context: any,
+    action: Type<T>,
+    payload: Exclude<T[K], H> | null = null
+  ) {
     const callingCmp: string = context.__proto__.constructor.name;
     const instance: T = new action(payload);
     instance.type = `[${callingCmp}] ${instance.type}`;
