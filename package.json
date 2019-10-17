@@ -30,7 +30,6 @@
   "homepage": "https://github.com/kmiskiewicz/ngrx-typed-actions#readme",
   "peerDependencies": {
     "@ngrx/effects": "^8.0.1",
-    "@ngrx/store": "^8.0.1",
     "rxjs": "^6.5.2"
   },
   "devDependencies": {
@@ -49,7 +48,7 @@
     "typescript": "^3.4.5",
     "zone.js": "^0.9.1",
     "@angular/core": "^8.2.11",
-    "@ngrx/store": "^8.0.1"
+    "@ngrx/store": "^8.4.0"
   },
   "ngPackage": {
     "lib": {
