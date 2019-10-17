@@ -29,14 +29,13 @@
   },
   "homepage": "https://github.com/kmiskiewicz/ngrx-typed-actions#readme",
   "peerDependencies": {
-    "@angular/core": "^8.0.1",
     "@ngrx/effects": "^8.0.1",
     "@ngrx/store": "^8.0.1",
     "rxjs": "^6.5.2"
   },
   "devDependencies": {
-    "@angular/compiler": "^8.0.1",
-    "@angular/compiler-cli": "^8.0.1",
+    "@angular/compiler": "^8.2.11",
+    "@angular/compiler-cli": "^8.2.11",
     "@types/jasmine": "^3.3.13",
     "husky": "^2.4.1",
     "jasmine": "^3.4.0",
@@ -49,7 +48,7 @@
     "tslint": "^5.17.0",
     "typescript": "^3.4.5",
     "zone.js": "^0.9.1",
-    "@angular/core": "^8.0.1",
+    "@angular/core": "^8.2.11",
     "@ngrx/store": "^8.0.1"
   },
   "ngPackage": {
